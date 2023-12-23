@@ -1,0 +1,6 @@
+@use './mixins.scss' as *;
+
+@include b(breadcrumbs) {
+  display: flex;
+  align-items: center;
+}
